@@ -112,6 +112,20 @@ section h3 {
 	float: left;
 	
 }
+
+}
+ .wrapper {
+ 	 display: grid;
+ 	 grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+ 	 grid-gap: 5px;
+ }
+ img{
+ 	width: 100%;
+ 	border-radius: 20px;
+ }
+ .box{
+ 	padding: 10px;
+ } 
 .icon {
 	width:70px;
 	height:70px;
